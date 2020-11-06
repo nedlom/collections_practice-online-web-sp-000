@@ -13,15 +13,10 @@ def sort_array_char_count(array)
 end
 
 def swap_elements(array)
-  array.each_with_index.collect do |element, index|
-    if index == 1 
-      array[2]
-    elsif index == 2
-      array[1]
-    else
-      element
-    end
-  end
+  two = array.slice(1)
+  three = array.slice(2)
+  x[1] = three
+  x[2] = two
 end
 
 def reverse_array(array)
