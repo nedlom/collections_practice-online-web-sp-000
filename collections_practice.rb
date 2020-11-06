@@ -17,6 +17,7 @@ def swap_elements(array)
   three = array.slice(2)
   array[1] = three
   array[2] = two
+  array
 end
 
 def reverse_array(array)
